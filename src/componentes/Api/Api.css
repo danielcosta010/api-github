@@ -3,14 +3,15 @@ main {
  margin-top: 100px;
 }
 .lista {
+  column-gap: 20px;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
   margin: auto 10%;
 }
 .lista__item {
-  flex-grow: 1;
-  margin: 25px 10px;
+  margin: 25px 0;
+  flex: 1 1 300px;
 }
 
 .lista__link {
@@ -26,6 +27,7 @@ main {
   margin: 4px 2px;
   transition-duration: 0.4s;
   transform-style: preserve-3d;
+  width: 100%;
 }
 .lista__link:hover {
   background-color: #3e8e41;
